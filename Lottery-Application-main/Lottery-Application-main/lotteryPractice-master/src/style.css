@@ -1,0 +1,21 @@
+.Bulletin
+{
+    
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    height: 40%;
+       background-repeat: repeat-x;
+    animation: Bulletin 8s linear infinite;
+}
+@keyframes Bulletin
+{
+ 100%{
+     transform:translateX(-450px);
+ }
+}
+.Bulletin p
+{
+    font-size: 20px;
+   margin: 0 30px;
+}
